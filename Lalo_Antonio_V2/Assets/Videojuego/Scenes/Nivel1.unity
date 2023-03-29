@@ -2854,6 +2854,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9161721621451333811, guid: ee4e38868cfa94f40ac063a5b7593b45, type: 3}
+      propertyPath: capaDelPiso.m_Bits
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 9161721621451333817, guid: ee4e38868cfa94f40ac063a5b7593b45, type: 3}
       propertyPath: m_Name
       value: "Personaje gala\u0301ctico "

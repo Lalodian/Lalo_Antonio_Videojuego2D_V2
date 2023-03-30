@@ -39,9 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 1934966329
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Luz Bala
     uniqueID: 3778068759
+    locked: 0
+  - name: Player
+    uniqueID: 3345885509
     locked: 0

@@ -6,6 +6,7 @@ public class Enemigo : MonoBehaviour
 {
     [SerializeField] private float vida;
     [SerializeField] private GameObject efectoMuerte;
+    [SerializeField] AudioClip clip;
 
     public void TomarDaño(float daño)
     {
@@ -21,19 +22,11 @@ public class Enemigo : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            GameManager.Instance.PerderVida();
-            Destroy(this.gameObject);
-
-        }
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            ControladorSonido.Instance.EjecutarSonido(clip);
             GameManager.Instance.PerderVida();
             Destroy(this.gameObject);
 

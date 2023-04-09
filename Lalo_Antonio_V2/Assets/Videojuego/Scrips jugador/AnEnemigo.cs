@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class AnEnemigo : MonoBehaviour
 {
-
+    [SerializeField] AudioClip clip;
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.gameObject.CompareTag("Player"))
         {
+            ControladorSonido.Instance.EjecutarSonido(clip);
             GameManager.Instance.PerderVida();
                 Destroy(this.gameObject);
 

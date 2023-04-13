@@ -79,6 +79,20 @@ public class MovimientoAnimacion : MonoBehaviour
         }
 
 
-    } 
-   
+    }
+    private void OnCollisionEnter2D(Collision2D obj)
+    {
+        if (obj.transform.tag == "PlatMover")
+        {
+            transform.parent = obj.transform;
+        }
+    }
+        private void OnCollisionExit2D(Collision2D obj)
+        {
+            if (obj.transform.tag == "PlatMover")
+            {
+                transform.parent = null;
+            }
+        }
+    
 }

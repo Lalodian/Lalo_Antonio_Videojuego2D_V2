@@ -876,7 +876,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1623038741}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &936127989
 MonoBehaviour:
@@ -1891,13 +1891,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623038738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.59, y: -6.21, z: 0}
+  m_LocalPosition: {x: -19.046, y: -3.641, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1380094260}
   - {fileID: 1639896120}
-  - {fileID: 1799328213}
   - {fileID: 936127988}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1978,7 +1977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc53c8eedf1bb842938d133e99d25e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controladorDisparo: {fileID: 1799328213}
+  controladorDisparo: {fileID: 0}
   bala: {fileID: 7933539804120166144, guid: 1fd02dc9845fd2244a14dc4a38b06776, type: 3}
 --- !u!1 &1639896116
 GameObject:
@@ -2158,37 +2157,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f9c208dc3d0ad54ba144e73d9eb24f7, type: 3}
---- !u!1 &1799328212
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1799328213}
-  m_Layer: 0
-  m_Name: Controlador Disparo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1799328213
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799328212}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.248, y: 0.163, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1623038741}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1879779735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3741,10 +3709,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso Movible 2
       objectReference: {fileID: 0}
-    - target: {fileID: 830488540722981897, guid: 65dac42e65653104dac821f5aa07d1dd, type: 3}
-      propertyPath: m_TagString
-      value: PlatMover
-      objectReference: {fileID: 0}
     - target: {fileID: 830488540722981898, guid: 65dac42e65653104dac821f5aa07d1dd, type: 3}
       propertyPath: points.Array.data[0]
       value: 
@@ -4256,10 +4220,6 @@ PrefabInstance:
     - target: {fileID: 830488540722981897, guid: 65dac42e65653104dac821f5aa07d1dd, type: 3}
       propertyPath: m_Name
       value: Piso Movible 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 830488540722981897, guid: 65dac42e65653104dac821f5aa07d1dd, type: 3}
-      propertyPath: m_TagString
-      value: PlatMover
       objectReference: {fileID: 0}
     - target: {fileID: 830488540722981898, guid: 65dac42e65653104dac821f5aa07d1dd, type: 3}
       propertyPath: points.Array.data[0]

@@ -29,7 +29,7 @@ public class Bala : MonoBehaviour
     {
         Debug.Log("Colisión detectada con objeto de etiqueta: " + collision.gameObject.tag);
 
-        if (collision.gameObject.CompareTag("Enemigo"))
+        if (collision.gameObject.CompareTag("Enemigo")|| collision.gameObject.CompareTag("Aliens"))
         {
             collision.GetComponent<Enemigo>().TomarDaño(daño);
             Destroy(gameObject);

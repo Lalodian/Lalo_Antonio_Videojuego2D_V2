@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemigo
   - PlatMover
+  - Aliens
   layers:
   - Default
   - TransparentFX
@@ -40,8 +41,29 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Espacio
+    uniqueID: 2625629699
+    locked: 0
+  - name: Laboratorio
+    uniqueID: 3569304267
+    locked: 0
+  - name: Nave1
+    uniqueID: 3656507531
+    locked: 0
+  - name: Nave2
+    uniqueID: 2343554843
+    locked: 0
+  - name: Nave3
+    uniqueID: 1263473745
+    locked: 0
+  - name: Fuego
+    uniqueID: 2620871885
+    locked: 0
   - name: Fondo
     uniqueID: 1934966329
+    locked: 0
+  - name: Luz Piso
+    uniqueID: 1216799325
     locked: 0
   - name: Default
     uniqueID: 0

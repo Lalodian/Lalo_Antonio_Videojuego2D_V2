@@ -24,6 +24,7 @@ public class Enemigo : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Colisión detectada con objeto de etiqueta: " + collision.gameObject.tag);
         if (collision.gameObject.CompareTag("Player"))
         {
             ControladorSonido.Instance.EjecutarSonido(clip);

@@ -733,7 +733,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1934966329
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 646347b955a3a4c45a6e1b9410faca0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3529,6 +3529,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6826712136557982019, guid: c4a98fcaa558f1e41a56c913e5a59a98, type: 3}
+      propertyPath: controladorDisparo
+      value: 
+      objectReference: {fileID: 1623038741}
     - target: {fileID: 6826712136557982024, guid: c4a98fcaa558f1e41a56c913e5a59a98, type: 3}
       propertyPath: m_Name
       value: "Personaje gala\u0301ctico "
@@ -3594,6 +3598,10 @@ PrefabInstance:
       propertyPath: clip
       value: 
       objectReference: {fileID: 8300000, guid: e859c3a08f40dd44daaf4c6928b9c95b, type: 3}
+    - target: {fileID: 7571776065145147108, guid: b1932bfd25c318144a9b2fb8d9699757, type: 3}
+      propertyPath: speedEnemy
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7571776065145147110, guid: b1932bfd25c318144a9b2fb8d9699757, type: 3}
       propertyPath: m_RootOrder
       value: 16

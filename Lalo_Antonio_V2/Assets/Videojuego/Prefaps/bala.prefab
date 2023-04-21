@@ -24,14 +24,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2604866128942490540}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -3.87, y: 0.1, z: 0}
   m_LocalScale: {x: 1.0972, y: 1.0972, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7933539804120166146}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &5870286388386490079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,12 +47,12 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0
+  m_FalloffIntensity: 0.74
   m_Color: {r: 1, g: 0.019995866, b: 0, a: 1}
-  m_Intensity: 50
+  m_Intensity: 33.51
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 0000000017c130e1
+  m_ApplyToSortingLayers: 03ee7f9ccb42bfd48be0f1d91bcfaf8b51144f4bcd54379c393e5573135ecf865de286480000000017c130e145296ec79b0869ac
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -97,10 +97,10 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 47.95413
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.07
-  m_PointLightOuterRadius: 0.36
+  m_PointLightInnerAngle: 0
+  m_PointLightOuterAngle: 312.04584
+  m_PointLightInnerRadius: 0.27
+  m_PointLightOuterRadius: 0.9
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -187,7 +187,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -516898537
   m_SortingLayer: 1
-  m_SortingOrder: 9
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d2e2067de305fd8409cf5dcea640ad2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

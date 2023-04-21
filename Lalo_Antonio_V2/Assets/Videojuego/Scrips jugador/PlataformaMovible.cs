@@ -31,4 +31,5 @@ public class PlataformaMovible : MonoBehaviour
             }
         puntoActual = points[puntoSeleccionado];
     }
+
 }

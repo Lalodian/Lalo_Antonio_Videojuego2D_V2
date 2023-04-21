@@ -33,4 +33,15 @@ public class Enemigo : MonoBehaviour
 
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Colisión detectada con objeto de etiqueta: " + collision.gameObject.tag);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            ControladorSonido.Instance.EjecutarSonido(clip);
+            GameManager.Instance.PerderVida();
+            Destroy(this.gameObject);
+
+        }
+    }
 }

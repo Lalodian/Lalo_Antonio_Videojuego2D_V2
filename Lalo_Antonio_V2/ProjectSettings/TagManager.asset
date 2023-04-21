@@ -62,6 +62,9 @@ TagManager:
   - name: Fondo
     uniqueID: 1934966329
     locked: 0
+  - name: Piso Batalla
+    uniqueID: 2261736979
+    locked: 0
   - name: Luz Piso
     uniqueID: 1216799325
     locked: 0
@@ -73,4 +76,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3345885509
+    locked: 0
+  - name: Plataformas
+    uniqueID: 2892564635
     locked: 0

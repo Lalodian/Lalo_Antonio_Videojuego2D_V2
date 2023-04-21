@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 5228144537726663568}
   m_Layer: 0
   m_Name: Alien enemigo 1 V2
-  m_TagString: Aliens
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b307ad491f44ddd40a944979ab92240b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 100
+  vida: 50
   efectoMuerte: {fileID: 6770369615862041338, guid: 6148dd2be16cccb45a6789412b9dafa7, type: 3}
   clip: {fileID: 8300000, guid: e859c3a08f40dd44daaf4c6928b9c95b, type: 3}
 --- !u!114 &5228144537726663571

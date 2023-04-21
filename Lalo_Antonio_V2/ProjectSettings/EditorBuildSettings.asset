@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Videojuego/Scenes/PantallaMuerteNivel1.unity
     guid: 854198ca18d4f3a4faa292d7b58d3305
+  - enabled: 1
+    path: Assets/Videojuego/Scenes/Creditos.unity
+    guid: 767c6114c39dac648a72f94295c24a19
+  - enabled: 1
+    path: Assets/Videojuego/Scenes/PantallaMuerteNivel2.unity
+    guid: bc82e59fff682d24bba93e98b70ac60b
   m_configObjects: {}

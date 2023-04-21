@@ -13,6 +13,11 @@ public class EntrardaNave : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(Nivel2);
+            // Encuentra el objeto que contiene la música del nivel 1
+            GameObject audioLevel1 = GameObject.FindWithTag("ControladorSonido");
+
+            // Detiene la reproducción de audio
+            audioLevel1.GetComponent<AudioSource>().Stop();
         }
     }
 }
